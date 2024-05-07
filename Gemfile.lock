@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/afomera/richer_text.git
+  revision: 7c17212ffef5d88e8546559f66fb6d038332a752
+  specs:
+    richer_text (0.12.0)
+      rails (> 7.0.0)
+      ruby-oembed
+
+GIT
   remote: https://github.com/rails/rails.git
   revision: e8e077dd16f815c2a5cc4d29646d9451e7046f71
   branch: main
@@ -244,6 +252,7 @@ GEM
       rubocop-minitest
       rubocop-performance
       rubocop-rails
+    ruby-oembed (0.17.0)
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
     selenium-webdriver (4.20.1)
@@ -322,6 +331,7 @@ DEPENDENCIES
   puma (>= 5.0)
   rails!
   redis (>= 4.0.1)
+  richer_text!
   rubocop-rails-omakase
   selenium-webdriver
   sprockets-rails

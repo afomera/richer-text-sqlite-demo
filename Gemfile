@@ -57,3 +57,4 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+gem "richer_text", github: "afomera/richer_text"
