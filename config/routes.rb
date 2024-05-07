@@ -12,4 +12,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  resources :embeds, only: [:show, :create], constraints: {id: /[^\/]+/}  do
+    collection do
+      get :patterns
+    end
+  end
 end

@@ -18,7 +18,7 @@
 
   <div>
     <%= form.label :body, style: "display: block" %>
-    <%= form.richer_text_area :body %>
+    <%= form.richer_text_area :body, "embeds-path": embeds_path, oembed: true %>
   </div>
 
   <div>
